@@ -1,25 +1,26 @@
 ############################# feature ###################################
+# This should be the about/project description, mission, sponsored by DOE page
 feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title : About MCATS
+  content : "MIT is leading a <strong>3-year</strong> project to test new approaches to bus service that we hope will improve access to the <strong>Illinois Medical District</strong>. The focus is on <strong>low-income workers and patients</strong>."
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : Stakeholder Advisory Group (SAG)
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Local riders and stakeholders will advise on the development, implementation, and evaluation of the new bus services
       
       # feature item loop
-    - title : Easy Customization
+    - title : Bus Rider Cohort
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Actual users of the new services whose travel experiences will serve as a key performance indicator. Some may also be on the SAG
 
       # feature item loop
-    - title : SEO Optimized
+    - title : Sponsored by DOE
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : TODO Something about why the DOE is sponsoring this project
       
       # feature item loop
     - title : Easy Customization

@@ -1,19 +1,19 @@
 ################################# Service #################################
-service:
+service2:
   enable : true
-  title : Equity Partners
+  title : Institutional Partners
   service_item :
     # service item loop
-    - name : Eqiticity
+    - name : Illinois Medical District (IMD)
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     # service item loop
-    - name : Urban Institute
+    - name : Chicago Transit Authority (CTA)
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     # service item loop
-    - name : Chicago Metropolitan Planning Council
+    - name : National Renewable Energy Laboratory (NREL)
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.

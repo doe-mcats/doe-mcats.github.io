@@ -91,7 +91,7 @@ link = "plugins/google-map/map.js"
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
 name = "about"
-url = "#about"
+url = "#feature"
 weight = 1
 
 [[Languages.en.menu.main]]
@@ -109,15 +109,15 @@ name = "team"
 url = "#team"
 weight = 4
 
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
+# [[Languages.en.menu.main]]
+# name = "pricing"
+# url = "#pricing"
+# weight = 5
 
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
+# [[Languages.en.menu.main]]
+# name = "blog"
+# url = "#blog"
+# weight = 6
 
 [[Languages.en.menu.main]]
 name = "contact"
@@ -126,20 +126,20 @@ weight = 7
 
 
 [[Languages.en.menu.main]]
-name = "Dropdown"
+name = "Partners"
 weight = 7
 hasChildren = true
 
 [[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
+parent = "Partners"
+name = "Equity"
+url = "#services"
 weight = 1
 
 [[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
+parent = "Partners"
+name = "Institutional"
+url = "#services2"
 weight = 2
 
 [[Languages.en.menu.main]]
