@@ -265,3 +265,7 @@ weight = 2
 [Languages.fr.params]
 home = "Accueil"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
+[module]
+  [[module.imports]]
+    path = 'github.com/hugo-mods/icons'

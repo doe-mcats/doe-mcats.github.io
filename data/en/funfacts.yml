@@ -5,21 +5,21 @@ funfacts:
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   counter_item:
     # counter item loop
-    - title : "Happy Clients"
-      icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
-      count : "320"
-    
+    - title : "IMD Medical Universities"
+      icon : "ti-book" # themify icon pack : https://themify.me/themify-icons
+      count : "2"
+
     # counter item loop
-    - title : "Projects completed"
-      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
-      count : "350"
-    
+    - title : "IMD Employees"
+      icon : "ti-clipboard" # themify icon pack : https://themify.me/themify-icons
+      count : "29000"
+
     # counter item loop
-    - title : "Positive feedback"
-      icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
-      count : "158"
-    
+    - title : "Daily IMD Visitors"
+      icon : "ti-pulse" # themify icon pack : https://themify.me/themify-icons
+      count : "50000"
+
     # counter item loop
-    - title : "Cups of Coffee"
-      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
-      count : "250"
+    - title : "IMD Generated Economic Opportunity"
+      icon : "ti-money" # themify icon pack : https://themify.me/themify-icons
+      count : "3400000000"

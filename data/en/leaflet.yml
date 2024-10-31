@@ -1,0 +1,4 @@
+############################### leaflet ############################
+leaflet:
+  enable : true
+  title : Map of IMD

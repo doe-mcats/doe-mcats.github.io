@@ -5,7 +5,7 @@ banner:
   bg_image : "images/bus/ebus_exterior_shot_01.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "DOE MCATS"
-  content : "Improving Access to the Illinois Medical District for Low-Income Workers and Patients"
+  content : "Multi-Level Connected and Automated Transit System (MCATS): Improving Access to the Illinois Medical District (IMD) for Low-Income Workers and Patients"
   button:
     enable : true
     label : "Learn More"

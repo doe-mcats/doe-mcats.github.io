@@ -2,8 +2,8 @@
 # This should be the about/project description, mission, sponsored by DOE page
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
+  image : images/bus/Outreach.webp
+  image_webp : images/bus/Outreach.webp
   title : About MCATS
   content : "MIT is leading a <strong>3-year</strong> project to test new approaches to bus service that we hope will improve access to the <strong>Illinois Medical District</strong>. The focus is on <strong>low-income workers and patients</strong>."
   feature_item : 
