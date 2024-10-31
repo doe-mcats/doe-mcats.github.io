@@ -1,3 +1,12 @@
 .hero-area {
     background-position: center
 }
+
+.service-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.service-item {
+  transition: all 0.4s ease 0s;
+  transform: scale(.9);
+}

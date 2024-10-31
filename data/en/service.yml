@@ -4,16 +4,19 @@ service:
   title : Equity Partners
   service_item :
     # service item loop
-    - name : Eqiticity
+    - name : Equiticity
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Equiticity is a racial equity movement, operationalizing racial equity by harnessing our collective power through research, advocacy, programs, Community Mobility Rituals and social enterprises, to improve the lives of Black, Brown and Indigenous people in our society.
+      link : https://www.equiticity.org/
       
     # service item loop
     - name : Urban Institute
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : When informed by Urban Institute’s data and research insights, your efforts have greater potential to effect consequential and lasting social change. Together, we can help shape a more just and equitable society.
+      link : https://www.urban.org/
       
     # service item loop
     - name : Chicago Metropolitan Planning Council
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Metropolitan Planning Council (MPC) is a planning and policy organization addressing regional built environment issues through a racial and economic justice lens.
+      link : https://metroplanning.org/
