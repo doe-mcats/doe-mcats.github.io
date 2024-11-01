@@ -9,13 +9,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 html {
   background-color: var(--bg-one);
-  color: #737f8a;
+  color: var(--primary-text-color);
 }
 
 body {
   background-color: var(--bg-one);
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: var(--primary-text-color);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,7 +27,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: var(--secondary-text-color);
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 pre {
-  color: #afbac4;
+  color: var(--secondary-text-color);
 }
 
 /*=================================================================
@@ -47,12 +47,12 @@ pre {
 ==================================================================*/
 ::-moz-selection {
   /* Code for Firefox */
-  color: #fff;
+  color: var(--tertiary-text-color);
   background: var(--primary-color);
 }
 
 ::selection {
-  color: #fff;
+  color: var(--tertiary-text-color);
   background: var(--primary-color);
 }
 
@@ -65,7 +65,7 @@ figure {
 }
 
 a {
-  color: #fff;
+  color: var(--tertiary-text-color);
   transition: all .3s ease-in 0s;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 
 .btn {
   background-color: transparent;
-  color: #fff;
+  color: var(--tertiary-text-color);
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
@@ -117,7 +117,7 @@ a:hover {
 .btn-transparent:focus {
   background-color: var(--primary-color);
   border: 1px solid transparent;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .border-meghna {
@@ -129,7 +129,7 @@ a:hover {
 }
 
 .border-meghna:before {
-  background-color: #fff;
+  background-color: var(--tertiary-text-color);
   content: '';
   height: 6px;
   left: 50%;
@@ -220,7 +220,7 @@ a:hover {
 
 .btn-main {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--tertiary-text-color);
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -230,7 +230,7 @@ a:hover {
 
 .btn-main:hover {
   background: #2c9091;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .mt-20 {
@@ -303,7 +303,7 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .title h2 span {
@@ -315,7 +315,7 @@ a:hover {
 }
 
 .title.title-white h2 {
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .bg-gray {
@@ -389,7 +389,7 @@ a:hover {
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
-  color: #fff;
+  color: var(--tertiary-text-color);
   position: relative;
 }
 
@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: var(--nav-background);
   width: 100%;
   margin-bottom: 0;
 }
@@ -459,7 +459,7 @@ a:hover {
 }
 
 .hero-area .block .video-button {
-  background: #fff;
+  background: var(--tertiary-text-color);
   color: var(--primary-color);
   display: inline-block;
   height: 60px;
@@ -475,7 +475,7 @@ a:hover {
 
 .hero-area .block h1 {
   font-size: 90px;
-  color: #fff;
+  color: var(--tertiary-text-color);
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
@@ -488,7 +488,7 @@ a:hover {
 }
 
 .hero-area .block p {
-  color: #fff;
+  color: var(--tertiary-text-color);
   font-size: 20px;
   width: 70%;
   margin: 0 auto;
@@ -496,7 +496,7 @@ a:hover {
 
 .hero-area .block .btn-transparent {
   margin-top: 40px;
-  border-color: #fff;
+  border-color: var(--tertiary-text-color);
   padding: 14px 50px;
   font-size: 18px;
   font-size: 16px;
@@ -513,7 +513,7 @@ a:hover {
 }
 
 .hero-area-video .block {
-  color: #fff;
+  color: var(--tertiary-text-color);
   text-align: center;
 }
 
@@ -524,7 +524,7 @@ a:hover {
 }
 
 .hero-area-video .block p {
-  color: #fff;
+  color: var(--tertiary-text-color);
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
@@ -607,7 +607,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-  color: #afbac4;
+  color: var(--secondary-text-color);
 }
 
 /*=================================================================
@@ -663,7 +663,7 @@ a:hover {
   padding: 100px 0;
   background-image: url("../images/call-to-action/call-to-action-bg.jpg");
   background-size: cover;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .call-to-action-2 h2 {
@@ -671,7 +671,7 @@ a:hover {
 }
 
 .call-to-action-2 p {
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .call-to-action-2 .btn-main {
@@ -756,7 +756,7 @@ a:hover {
 .success {
   background-color: #6cb670;
   border-radius: 4px;
-  color: #fff;
+  color: var(--tertiary-text-color);
   display: none;
   font-size: 13px;
   padding: 10px;
@@ -865,7 +865,7 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: var(--primary-text-color);
   transition: .3s all;
 }
 
@@ -932,7 +932,7 @@ a:hover {
   background: var(--primary-color);
   width: 50px;
   height: 50px;
-  color: #fff;
+  color: var(--tertiary-text-color);
   display: inline-block;
   font-size: 20px;
   border-radius: 30px;
@@ -974,7 +974,7 @@ a:hover {
 }
 
 .service-2 .service-item:hover i {
-  background: #fff;
+  background: var(--tertiary-text-color);
   color: var(--primary-color);
 }
 
@@ -984,7 +984,7 @@ a:hover {
   background: var(--primary-color) none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-  color: #fff;
+  color: var(--tertiary-text-color);
   height: 55px;
   line-height: 55px;
   margin-bottom: 20px;
@@ -1060,7 +1060,7 @@ a:hover {
 }
 
 .member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
+  background-color: rgb(from var(--primary-color) r g b / 0.7);
   position: absolute;
   text-align: center;
   height: 100%;
@@ -1081,8 +1081,8 @@ a:hover {
 }
 
 .member-photo .mask ul li a {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--tertiary-text-color);
+  color: var(--tertiary-text-color);
   display: block;
   font-size: 20px;
   height: 35px;
@@ -1092,7 +1092,7 @@ a:hover {
 }
 
 .member-photo .mask ul li a:hover {
-  background-color: #fff;
+  background-color: var(--tertiary-text-color);
   color: var(--primary-color);
   border: 1px solid transparent;
 }
@@ -1128,7 +1128,7 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: var(--secondary-text-color);
   font-size: 18px;
 }
 
@@ -1162,7 +1162,7 @@ a:hover {
 
 .owl-controls .owl-page span {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid var(--tertiary-text-color);
   border-radius: 50px;
   display: block;
   height: 13px;
@@ -1304,7 +1304,7 @@ a:hover {
 }
 
 .single-blog {
-  background-color: #fff;
+  background-color: var(--tertiary-text-color);
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -1490,13 +1490,13 @@ a:hover {
 }
 
 .post-comment-name {
-  color: #afbac4;
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 18px;
 }
 
 .post-time {
-  color: #737f8a;
+  color: var(--primary-text-color);
 }
 
 input#e-mail,
@@ -1533,7 +1533,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover i {
-  color: #fff;
+  color: var(--tertiary-text-color);
   opacity: 1;
 }
 
@@ -1549,7 +1549,7 @@ input#e-mail,
 
 .copyright {
   padding: 20px 0;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .copyright img {
@@ -1563,7 +1563,7 @@ input#e-mail,
 #scrollUp {
   border: 1px solid #4e595f;
   bottom: 15px;
-  color: #fff;
+  color: var(--tertiary-text-color);
   display: none;
   padding: 8px 12px;
   position: fixed;
@@ -1671,7 +1671,7 @@ input#e-mail,
 }
 
 #post-thumb .owl-buttons {
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .post-meta {
@@ -1714,7 +1714,7 @@ input#e-mail,
 
 .post-excerpt .more a:hover {
   background-color: #6CB670;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 aside.widget {
@@ -1722,7 +1722,7 @@ aside.widget {
 }
 
 .widget-title>h3 {
-  color: #fff;
+  color: var(--tertiary-text-color);
   margin-bottom: 15px;
   margin-top: 0;
   position: relative;
@@ -1777,7 +1777,7 @@ aside.widget {
 }
 
 .tab-excerpt h4 a {
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .tab-excerpt h4 a:hover {
@@ -1786,7 +1786,7 @@ aside.widget {
 
 .tab-post-nav li a {
   border-top: 3px solid transparent;
-  color: #fff;
+  color: var(--tertiary-text-color);
   display: block;
   padding: 13px 18px;
   text-align: center;
@@ -1812,7 +1812,7 @@ aside.widget {
 
 .widget-content .tag {
   background-color: #2F383D;
-  color: #fff;
+  color: var(--tertiary-text-color);
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 5px;
@@ -1821,7 +1821,7 @@ aside.widget {
 
 .widget-content .tag:hover {
   background-color: #6CB670;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 .post-pagination {
@@ -1857,14 +1857,14 @@ aside.widget {
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
   background-color: #6CB670;
-  color: #fff;
+  color: var(--tertiary-text-color);
 }
 
 /*=================================================================
 	Single Blog Page
 ==================================================================*/
 .single-blog {
-  background-color: #fff;
+  background-color: var(--tertiary-text-color);
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -2020,7 +2020,7 @@ figcaption {
 
 .resp-sharing-button__link {
   text-decoration: none;
-  color: #fff;
+  color: var(--tertiary-text-color);
   margin: 0.5em
 }
 
@@ -2045,14 +2045,14 @@ figcaption {
 
 /* Non solid icons get a stroke */
 .resp-sharing-button__icon {
-  stroke: #fff;
+  stroke: var(--tertiary-text-color);
   fill: none
 }
 
 /* Solid icons get a fill */
 .resp-sharing-button__icon--solid,
 .resp-sharing-button__icon--solidcircle {
-  fill: #fff;
+  fill: var(--tertiary-text-color);
   stroke: none
 }
 
@@ -2255,7 +2255,7 @@ figcaption {
 .pagination .page-item .page-link:hover {
   background: var(--primary-color);
   border-color: var(--primary-color);
-  color: #fff
+  color: var(--tertiary-text-color)
 }
 
 .pagination .page-item:first-child .page-link,
@@ -2265,13 +2265,13 @@ figcaption {
 
 .pagination .page-item.active .page-link {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--tertiary-text-color);
   border-color: var(--primary-color);
 }
 
 #select-language {
   background: var(--bg-one);
-  color: #ffffff;
+  color: var(--tertiary-text-color)fff;
   border: 0;
 }
 

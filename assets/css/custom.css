@@ -1,9 +1,13 @@
 :root {
   --primary-color: #79c2ff;
-  --bg-primary: #16191e;
+  --primary-text-color: #737f8a;
+  --secondary-text-color: #afbac4;
+  --tertiary-text-color: #fff;
+  --bg-primary: #26292e;
   --bg-secondary: #55606a;
   --bg-one: #353b43;
   --bg-dark: #242930;
+  --nav-background: #1d2024;
 }
 
 .hero-area {
