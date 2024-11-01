@@ -1,13 +1,16 @@
 :root {
   --primary-color: #79c2ff;
+  --secondary-color: #fff;
   --primary-text-color: #737f8a;
-  --secondary-text-color: #afbac4;
-  --tertiary-text-color: #fff;
-  --bg-primary: #26292e;
-  --bg-secondary: #55606a;
-  --bg-one: #353b43;
-  --bg-dark: #242930;
+  --subheading-color: #afbac4;
+  --bg-light: #353b43;
+  --bg-dark: #292f36;
   --nav-background: #1d2024;
+
+  /* These are pretty unimportant */
+  --footer-social-bg-color: #26292e;
+  --footer-social-text-color: #55606a;
+  --bg-dark-unused: #242930;
 }
 
 .hero-area {
