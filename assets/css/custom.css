@@ -1,5 +1,11 @@
+:root {
+  --primary-color: #79c2ff;
+  --bg-primary: #26292e;
+  --bg-secondary: #55606a;
+}
+
 .hero-area {
-    background-position: center
+    background-position: center;
 }
 
 .service-item:hover {
