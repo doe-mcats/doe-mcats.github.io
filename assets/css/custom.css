@@ -1,7 +1,9 @@
 :root {
   --primary-color: #79c2ff;
-  --bg-primary: #26292e;
+  --bg-primary: #16191e;
   --bg-secondary: #55606a;
+  --bg-one: #353b43;
+  --bg-dark: #242930;
 }
 
 .hero-area {

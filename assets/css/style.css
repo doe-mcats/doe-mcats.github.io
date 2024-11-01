@@ -8,12 +8,12 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
+  background-color: var(--bg-one);
   color: #737f8a;
 }
 
 body {
-  background-color: #353b43;
+  background-color: var(--bg-one);
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
@@ -163,11 +163,11 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: var(--bg-one);
 }
 
 .bg-dark {
-  background: #242930;
+  background: var(--bg-dark);
 }
 
 .parallax-section {
@@ -547,7 +547,7 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #242930;
+  background: var(--bg-dark);
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
@@ -2270,7 +2270,7 @@ figcaption {
 }
 
 #select-language {
-  background: #353b43;
+  background: var(--bg-one);
   color: #ffffff;
   border: 0;
 }
