@@ -1,15 +1,16 @@
 :root {
   --primary-color: #79c2ff;
   --secondary-color: #fff;
-  --primary-text-color: #737f8a;
+  --primary-text-color: #c3cfda;
   --subheading-color: #afbac4;
-  --bg-light: #353b43;
-  --bg-dark: #292f36;
-  --nav-background: #1d2024;
+  --bg-light: #555b63;
+  --bg-dark: #494f56;
+  --nav-background: #2d3034;
+  --banner-shading: 0.40;
 
   /* These are pretty unimportant */
-  --footer-social-bg-color: #26292e;
-  --footer-social-text-color: #55606a;
+  --footer-social-bg-color: #36393e;
+  --footer-social-text-color: #75808a;
   --bg-dark-unused: #242930;
 }
 
