@@ -10,3 +10,20 @@
   transition: all 0.4s ease 0s;
   transform: scale(.9);
 }
+
+.member-photo {
+    height: 325px;
+    align-content: center;
+}
+
+.service-photo {
+  height: 175px;
+  align-content: center;
+}
+
+.equity-block {
+  height: 500px;
+}
+.institutional-block {
+  height: 625px;
+}

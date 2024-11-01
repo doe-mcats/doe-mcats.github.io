@@ -6,14 +6,20 @@ service2:
     # service item loop
     - name : Illinois Medical District (IMD)
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      image : "images/imd-logo425x188.png"
+      content : "The IMD brings together an ecosystem of enterprises that have inspired medical breakthroughs for more than 70 years. Situated just two miles from downtown Chicago, the IMD provides resources and accessibility few cities in the world can offer. IMD members share an urgency to improve the health of the world’s people, and leverage their unique resources to get there faster."
+      link : https://medicaldistrict.org/
       
     # service item loop
     - name : Chicago Transit Authority (CTA)
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      image : "images/cta_wide.png"
+      content : "The Chicago Transit Authority (CTA) operates one of the nation’s largest public transportation systems and covers the City of Chicago and 35 surrounding suburbs. On an average weekday, 765,566 rides are taken on CTA. We deliver quality, affordable transit services that link people, jobs and communities."
+      link : https://www.transitchicago.com/
       
     # service item loop
     - name : National Renewable Energy Laboratory (NREL)
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      image : "images/nrel-logo_300x150.png"
+      content : "From breakthroughs in fundamental science to new clean technologies to integrated energy systems that power our lives, NREL researchers are transforming the way the nation and the world use energy. NREL strives to achieve their vision of a clean energy future for the world through their mission: leading research, innovation, and strategic partnerships to deliver solutions for a clean energy economy."
+      link : https://www.nrel.gov/

@@ -7,46 +7,46 @@ team:
     - name : Massachusetts Institue of Technology
       image_webp : images/mit_logo_std_rgb_mit-red.webp
       image : images/mit_logo_std_rgb_mit-red.svg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : Department of Urban Studies and Planning (DUSP)
+      content : We are home to the largest urban planning faculty in the United States and enjoy the advantage of operating within the context of MIT’s culture of innovation and interdisciplinary knowledge creation.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+        #- icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+        #  link : "#"
+        #- icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+        #  link : "#"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.linkedin.com/school/mit/"
         - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://dusp.mit.edu/"
         
     # team member loop
     - name : Northeastern
       image_webp : images/NU_RGB_Notched-N_wordmark_RW.webp
       image : images/NU_RGB_Notched-N_wordmark_RW.png
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : Transit Mobility Lab
+      content : Promoting innovation in the day-to day practice of transit agencies around the world, and developing strategic directions and priorities based on identified opportunities.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+        #- icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+        #  link : "#"
+        #- icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+        #  link : "#"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://tso.sites.northeastern.edu/"
         - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://tso.sites.northeastern.edu/"
         
     # team member loop
     - name : University of Florida
       image_webp : images/university-of-florida-vertical-logo-03C2263CFB-seeklogo.com.webp
       image : images/university-of-florida-vertical-logo-03C2263CFB-seeklogo.com.png
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : Department of Urban and Regional Planning
+      content : Advancing public interest and empowering inclusive, resilient communities through planning education, research, and service.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.facebook.com/UFplanning/"
+        #- icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+        #  link : "#"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.linkedin.com/company/ufplanning"
         - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://dcp.ufl.edu/urp/"

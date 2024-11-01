@@ -10,16 +10,16 @@ funfacts:
       count : "2"
 
     # counter item loop
-    - title : "IMD Employees"
+    - title : "Thousand IMD Employees"
       icon : "ti-clipboard" # themify icon pack : https://themify.me/themify-icons
-      count : "29000"
+      count : "29"
 
     # counter item loop
-    - title : "Daily IMD Visitors"
+    - title : "Thousand Daily IMD Visitors"
       icon : "ti-pulse" # themify icon pack : https://themify.me/themify-icons
-      count : "50000"
+      count : "50"
 
     # counter item loop
-    - title : "IMD Generated Economic Opportunity"
+    - title : "Billion Dollars IMD Generated Economic Opportunity"
       icon : "ti-money" # themify icon pack : https://themify.me/themify-icons
-      count : "3400000000"
+      count : "3.4"

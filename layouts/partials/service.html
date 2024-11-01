@@ -1,9 +1,9 @@
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.service2.service2.enable}}
-{{ with $data.service2.service2}}
+{{ if $data.service.service.enable}}
+{{ with $data.service.service}}
 {{"<!-- service -->" | safeHTML }}
-<section id="services2" class="bg-one section section-bg">
+<section id="services" class="bg-one section">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12">
@@ -20,7 +20,7 @@
 			{{"<!-- Single Service Item -->" | safeHTML }}
 			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp service-item" data-wow-duration="500ms">
                             <a target="_blank" rel="noopener noreferrer" href="{{ .link | safeURL }}">
-				<div class="service-block text-center institutional-block">
+				<div class="service-block text-center equity-block">
                                         <div class="service-photo">
                                             {{"<!-- service photo -->" | safeHTML}}
                                             <img class="img-fluid lozad" data-src="{{ .image | absURL }}" alt="{{ .name }}">
