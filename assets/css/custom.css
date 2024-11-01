@@ -15,6 +15,9 @@
     height: 325px;
     align-content: center;
 }
+.team-member {
+  height: 575px;
+}
 
 .service-photo {
   height: 175px;
