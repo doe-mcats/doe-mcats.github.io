@@ -230,7 +230,7 @@ contentDir = "content/english"
 [Languages.en.params]
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2024 Designed by Max Katz-Christy"
 
 ################################ France Language ########################
 [Languages.fr]
