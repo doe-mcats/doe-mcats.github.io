@@ -5,7 +5,7 @@ feature:
   image : images/bus/Outreach.webp
   image_webp : images/bus/Outreach.webp
   title : About MCATS
-  content : "MIT is leading a <strong>3-year</strong> project to test new approaches to bus service that we hope will improve access to the <strong>Illinois Medical District</strong>. The focus is on <strong>low-income workers and patients</strong>."
+  content : "MIT is leading a **3-year** project to test new approaches to bus service that we hope will improve access to the **Illinois Medical District**. The focus is on **low-income workers and patients**.\n\nThis project is sponsored by the **US Department of Energy** to support innovation that can develop and demonstrate mobility-system level approaches to improve the **efficiency and convenience of public transportation**."
   feature_item : 
       # feature item loop
     - title : Stakeholder Advisory Group (SAG)
@@ -18,9 +18,9 @@ feature:
       content : Actual users of the new services whose travel experiences will serve as a key performance indicator. Some may also be on the SAG
 
       # feature item loop
-    - title : Sponsored by DOE
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : TODO Something about why the DOE is sponsoring this project
+    - title : Low-Carbon Mobility
+      icon : ti-stats-down # themify icon pack : https://themify.me/themify-icons
+      content : Public transportation has a critical role in ensuring equitable mobility access and providing people with low-carbon, low-emissions access to key destinations.
       
       # feature item loop
     - title : TODO
