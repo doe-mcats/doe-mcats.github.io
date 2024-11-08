@@ -15,10 +15,18 @@
 
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
+                                        {{"<!-- logo -->" | safeHTML}}
 					<a href="{{ site.Home.Permalink }}">
 						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="36" />
 					</a>
-					<br>
+
+                                        {{"<!-- sponsor -->" | safeHTML}}
+                                        {{ if isset site.Params "sponsor_logo" }}
+                                            <p>Sponsored by
+                                            <a href="{{ site.Params.sponsor_link }}">
+                                                    <img src="{{ site.Params.sponsor_logo | absURL }}" alt="sponsor logo" height="72" />
+                                            </a></p>
+                                        {{ end }}
 					<p>{{ site.Params.copyright | markdownify }}</p>
 				</div>
 			</div>

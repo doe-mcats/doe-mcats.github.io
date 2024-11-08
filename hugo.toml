@@ -231,6 +231,8 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 copyright = "Copyright &copy; 2024 Designed by Max Katz-Christy"
+sponsor_logo = "images/DOE_Color_Seal_Green_Logo_Clear_2860x719.png"
+sponsor_link = "https://www.energy.gov/"
 
 ################################ France Language ########################
 [Languages.fr]
