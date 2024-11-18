@@ -1,0 +1,120 @@
+############################### people ############################
+people:
+  enable : true
+  title : Researchers
+  people_member :
+    # people member loop
+    - name : Jinhua Zhao
+      image : images/people/-000.jpg
+      designation : Faculty/Staff
+    - name : Haris Koutsopoulos
+      image : images/people/-001.jpg
+      designation : Faculty/Staff
+    - name : Nigel Wilson
+      image : images/people/-002.jpg
+      designation : Faculty/Staff
+    - name : John Attanucci
+      image : images/people/-003.jpg
+      designation : Faculty/Staff
+    - name : Anson Stewart
+      image : images/people/-004.jpg
+      designation : Faculty/Staff
+    - name : Shenhao Wang
+      image : images/people/-005.jpg
+      designation : Faculty/Staff
+    - name : Frederick Salvucci
+      image : images/people/-006.jpg
+      designation : Faculty/Staff
+    - name : Jim Aloisi
+      image : images/people/-007.jpg
+      designation : Faculty/Staff
+    - name : Ruth Yiu
+      image : images/people/-008.jpg
+      designation : Faculty/Staff
+    - name : Awad Abdelhalim
+      image : images/people/-009.jpg
+      designation : Faculty/Staff
+    - name : Bhuvan Atluri
+      image : images/people/-010.jpg
+      designation : Faculty/Staff
+    - name : John Moavenzadeh
+      image : images/people/-011.jpg
+      designation : Faculty/Staff
+    - name : Jiangbo Yu
+      image : images/people/-012.jpg
+      designation : Faculty/Staff
+    - name : Ryan Lee
+      image : images/people/-013.jpg
+      designation : Faculty/Staff
+    - name : Yuebing Liang
+      image : images/people/-014.jpg
+      designation : Postoc
+    - name : Xinyi Wang
+      image : images/people/-015.jpg
+      designation : Postoc
+    - name : Yunhang Zheng
+      image : images/people/-016.jpg
+      designation : Postoc
+    - name : Xinyu Chen
+      image : images/people/-017.jpg
+      designation : Postoc
+    - name : John Moody
+      image : images/people/-018.jpg
+      designation : PhD Student
+    - name : Joseph Rodriguez
+      image : images/people/-019.jpg
+      designation : PhD Student
+    - name : Dingyi Zhuang
+      image : images/people/-020.jpg
+      designation : PhD Student
+    - name : Hanyong Xu
+      image : images/people/-021.jpg
+      designation : PhD Student
+    - name : Michael Leong
+      image : images/people/-022.jpg
+      designation : PhD Student
+    - name : Niaz Mahmud Zafri
+      image : images/people/-023.jpg
+      designation : PhD Student
+    - name : Ao Qu
+      image : images/people/-024.jpg
+      designation : Master Student
+    - name : Seamus Joyce-Johnson
+      image : images/people/-025.jpg
+      designation : Master Student
+    - name : Riccardo Fiorista
+      image : images/people/-026.jpg
+      designation : Master Student
+    - name : Tiffany Lim
+      image : images/people/-027.jpg
+      designation : Master Student
+    - name : Yunwei (Peter) Hu
+      image : images/people/-028.jpg
+      designation : Master Student
+    - name : Amelia Baum
+      image : images/people/-029.jpg
+      designation : Master Student
+    - name : Javier Ricardo Diaz
+      image : images/people/-030.jpg
+      designation : Master Student
+    - name : Liu Liu
+      image : images/people/-031.jpg
+      designation : Visiting Student/Active Guest/Alumni
+    - name : Tulio Silveira-Santos
+      image : images/people/-032.jpg
+      designation : Visiting Student/Active Guest/Alumni
+    - name : Baichuan Mo
+      image : images/people/-033.jpg
+      designation : Visiting Student/Active Guest/Alumni
+    - name : Nick Caros
+      image : images/people/-034.jpg
+      designation : Visiting Student/Active Guest/Alumni
+    - name : Elena Renda
+      image : images/people/-035.jpg
+      designation : Visiting Student/Active Guest/Alumni
+    - name : Xuan Jiang
+      image : images/people/-036.jpg
+      designation : Visiting Student/Active Guest/Alumni
+    - name : Zhengbing He
+      image : images/people/-037.jpg
+      designation : Visiting Student/Active Guest/Alumni

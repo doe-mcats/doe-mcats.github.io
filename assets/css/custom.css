@@ -46,3 +46,11 @@
 .institutional-block {
   height: 625px;
 }
+
+
+.top-center-img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+}

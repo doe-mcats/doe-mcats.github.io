@@ -1,11 +1,11 @@
 ################################# Default configuration ###################
-baseURL = "https://maxtkc.github.io/doe-mcats"
+baseURL = "https://doe-mcats.github.io"
 title = "DOE MCATS"
 theme = "meghna"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post pagination
-paginate = 6 # see https://gohugo.io/extras/pagination/
+# paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 15 # see https://gohugo.io/content-management/excerpts/
 # google analytics
@@ -91,24 +91,13 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "about"
+name = "About"
 url = "#feature"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 3
-
-
-[[Languages.en.menu.main]]
 name = "Partners"
-weight = 4
+weight = 2
 hasChildren = true
 
 [[Languages.en.menu.main]]
@@ -122,6 +111,21 @@ parent = "Partners"
 name = "Institutional"
 url = "#services2"
 weight = 2
+
+[[Languages.en.menu.main]]
+name = "Academic Institutions"
+url = "#team"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Researchers"
+url = "#people"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 5
 
 
 ################### French Navigation ########################

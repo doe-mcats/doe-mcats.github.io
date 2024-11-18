@@ -1,4 +1,4 @@
-module github.com/maxtkc/doe-mcats
+module github.com/doe-mcats/doe-mcats.github.io
 
 go 1.22.2
 
