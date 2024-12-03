@@ -127,6 +127,11 @@ name = "Contact"
 url = "#contact"
 weight = 5
 
+[[Languages.en.menu.main]]
+name = "♿"
+url = "https://accessibility.mit.edu"
+weight = 6
+
 
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
